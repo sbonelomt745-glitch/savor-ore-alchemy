@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => (
   <footer className="relative z-10 py-12 px-4 bg-primary text-primary-foreground">
     <div className="max-w-5xl mx-auto text-center">
-      <img src={logo} alt="Savor & Ore" className="w-32 mx-auto mb-6 brightness-0 invert opacity-80" />
+      <img src={logo} alt="Savor & Ore" className="w-32 mx-auto mb-6 opacity-90" />
       <div className="flex flex-wrap justify-center gap-6 mb-6">
         {[
           { to: "/", label: "Home" },
