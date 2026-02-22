@@ -35,7 +35,7 @@ const GlowChallenge = () => (
             <span className="text-5xl mb-4 block">🥈</span>
             <h3 className="font-display text-3xl font-semibold text-foreground mb-2">R5,000</h3>
             <p className="font-body text-sm text-muted-foreground">Runner-Up Prize</p>
-            <p className="font-body text-xs text-muted-foreground mt-2">+ R500 coupon per month</p>
+            <p className="font-body text-xs text-muted-foreground mt-2">+ R500/month coupon for 12 months</p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ const GlowChallenge = () => (
             <span className="text-5xl mb-4 block">🏆</span>
             <h3 className="font-display text-3xl font-semibold text-accent mb-2">R10,000</h3>
             <p className="font-body text-sm text-muted-foreground">Grand Prize</p>
-            <p className="font-body text-xs text-muted-foreground mt-2">+ R1,000 coupon per month</p>
+            <p className="font-body text-xs text-muted-foreground mt-2">+ R1,000/month coupon for 12 months</p>
           </motion.div>
         </div>
 

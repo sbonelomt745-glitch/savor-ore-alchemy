@@ -35,11 +35,11 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-16">
-          <button onClick={scrollToShop} className="btn-rose-gold px-10 py-3.5 rounded-sm font-body text-sm tracking-widest uppercase">
+          <button onClick={() => window.location.href = '/shop'} className="btn-rose-gold px-10 py-3.5 rounded-sm font-body text-sm tracking-widest uppercase">
             Shop Now
           </button>
           <button
-            onClick={() => document.getElementById("story")?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => window.location.href = '/about'}
             className="btn-outline-dark px-10 py-3.5 rounded-sm font-body text-sm tracking-widest uppercase"
           >
             Our Story
