@@ -8,7 +8,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center px-4 overflow-hidden pt-20">
       {/* Background accent */}
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: `radial-gradient(circle at 30% 50%, hsl(15 60% 65%), transparent 60%), radial-gradient(circle at 70% 30%, hsl(35 50% 55%), transparent 50%)`
@@ -53,12 +53,13 @@ const HeroSection = () => {
         transition={{ duration: 1, delay: 0.4 }}
         className="relative z-10 w-full max-w-3xl mx-auto"
       >
-        <div className="rounded-lg overflow-hidden shadow-luxury">
+        <div className="rounded-2xl overflow-hidden shadow-luxury">
           <img
             src={cocoaCookies}
             alt="Savor & Ore handcrafted dark cocoa cookies with raw honeycomb"
             className="w-full h-64 md:h-96 object-cover"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent rounded-2xl" />
         </div>
       </motion.div>
     </section>

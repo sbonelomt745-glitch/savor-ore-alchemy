@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const WHATSAPP = "27768052563";
+const WHATSAPP = "27646877648";
 
 const LogisticsSection = () => (
   <section className="py-24 px-4">
