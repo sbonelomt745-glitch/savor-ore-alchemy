@@ -59,7 +59,7 @@ const HeroSection = () => {
             alt="Savor & Ore handcrafted dark cocoa cookies with raw honeycomb"
             className="w-full h-64 md:h-96 object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent rounded-2xl" />
+          
         </div>
       </motion.div>
     </section>
