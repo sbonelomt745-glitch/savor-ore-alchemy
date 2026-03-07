@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import bgImage from "@/assets/health-guide-bg.png";
 
 const boxes = [
