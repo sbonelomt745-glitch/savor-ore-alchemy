@@ -136,6 +136,45 @@ const HealthGuide = () => (
             </motion.div>
           ))}
         </div>
+
+        {/* CTA Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          className="mt-24 mb-8 text-center"
+        >
+          <h2 className="font-display text-3xl md:text-5xl text-accent mb-4">
+            Choose Your Path
+          </h2>
+          <p className="font-body text-sm text-[hsl(35,30%,75%)] tracking-widest uppercase mb-12 max-w-xl mx-auto">
+            Every journey starts with a single bite
+          </p>
+
+          <div className="flex flex-col md:flex-row items-center justify-center gap-5">
+            <Link
+              to="/shop"
+              className="btn-rose-gold font-body text-sm tracking-[0.15em] uppercase px-10 py-4 rounded-md w-64 text-center"
+            >
+              Shop Your Support Box
+            </Link>
+
+            <Link
+              to="/about"
+              className="font-body text-sm tracking-[0.15em] uppercase px-10 py-4 rounded-md w-64 text-center border border-accent text-accent bg-transparent transition-all duration-300 hover:bg-accent hover:text-foreground"
+            >
+              Begin Your Ritual
+            </Link>
+
+            <Link
+              to="/glow-challenge"
+              className="font-body text-sm tracking-[0.15em] uppercase px-10 py-4 rounded-md w-64 text-center relative overflow-hidden bg-gradient-to-r from-accent via-[hsl(35,50%,55%)] to-accent text-foreground transition-all duration-300 hover:shadow-[0_0_24px_4px_hsl(15,60%,65%,0.4)] hover:-translate-y-0.5"
+            >
+              Secure Your Glow
+            </Link>
+          </div>
+        </motion.div>
       </div>
     </div>
   </div>
