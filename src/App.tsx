@@ -15,6 +15,7 @@ import Science from "./pages/Science";
 import GlowChallenge from "./pages/GlowChallenge";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import HealthGuide from "./pages/HealthGuide";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
             <Route path="/glow-challenge" element={<GlowChallenge />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/health-guide" element={<HealthGuide />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />

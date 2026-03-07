@@ -11,6 +11,7 @@ const links = [
   { to: "/glow-challenge", label: "Glow Challenge" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
+  { to: "/health-guide", label: "Health Support Guide" },
 ];
 
 const Navbar = () => {
