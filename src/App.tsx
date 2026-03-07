@@ -37,6 +37,7 @@ const App = () => (
             <Route path="/glow-challenge" element={<GlowChallenge />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/health-guide" element={<HealthGuide />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />

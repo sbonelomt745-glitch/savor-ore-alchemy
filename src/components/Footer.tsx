@@ -13,6 +13,7 @@ const Footer = () => (
           { to: "/glow-challenge", label: "Glow Challenge" },
           { to: "/about", label: "About" },
           { to: "/contact", label: "Contact" },
+          { to: "/health-guide", label: "Health Support Guide" },
         ].map((l) => (
           <Link key={l.to} to={l.to} className="font-body text-xs tracking-widest uppercase text-primary-foreground/60 hover:text-primary-foreground transition-colors">
             {l.label}
