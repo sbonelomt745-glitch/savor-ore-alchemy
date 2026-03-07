@@ -15,6 +15,7 @@ import Science from "./pages/Science";
 import GlowChallenge from "./pages/GlowChallenge";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import HealthGuide from "./pages/HealthGuide";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
